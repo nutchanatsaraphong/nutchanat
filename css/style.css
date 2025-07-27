@@ -1,1 +1,74 @@
+    body {
+      font-family: 'Kanit', sans-serif;
+      background-color: #fefefe;
+      color: #333;
+      line-height: 1.8;
+      max-width: 70%;
+      margin: 0 auto;
+      padding: 50px 30px;
+    }
 
+.h1-wrapper {
+  text-align: center;
+}
+
+    .student-table {
+      background-color: #f4e0fa;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      border-collapse: collapse;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    .student-table th, .student-table td {
+      padding: 12px;
+      border: 1px solid #d0b2f2;
+      text-align: center;
+    }
+
+    .student-table th {
+      background-color: #d735ff;
+      color: white;
+    }
+    .summary-row {
+      background-color: #d735ff;
+      color: white;
+    }
+
+
+    .profile-table {
+      background-color: #fff3e0;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      width: 65%;
+      margin: 0 auto;
+      border-collapse: collapse;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    .profile-table th, .profile-table td {
+      padding: 12px;
+      border: 1px solid #ffb2e5;
+      text-align: left;
+    }
+
+
+    
+    .profile-table th {
+      background-color: #ff00ee;
+      color: white;
+    }
+     .image-row {
+      display: flex; 
+      justify-content: center; 
+      gap: 20px; 
+    }
+
+    .image-row img {
+      width: 250px;
+      height: 250px;
+      object-fit: cover; 
+      border: 2px solid #ccc;
+      border-radius: 20px;
+    }
